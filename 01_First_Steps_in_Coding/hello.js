@@ -1,5 +1,6 @@
-function helloSofUni(){
-	console.log("Hello SoftUni")
+function hello(){
+console.log("Hello SoftUni")
+
 }
 
-helloSofUni()
+hello()
