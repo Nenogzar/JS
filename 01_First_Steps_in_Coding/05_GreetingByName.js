@@ -1,6 +1,8 @@
-function greeting(input){
-    const greetingsName = input[0]
-    console.log(`Hello, ${greetingsName}!`)
+function greetingByName(input){
+    const name = input[0]
+    let greeting = "Hello, " + name + "!" ;
+
+    console.log(greeting)
 }
 
-greeting(['Stoyan'])
+greetingByName(['Stoyan'])
