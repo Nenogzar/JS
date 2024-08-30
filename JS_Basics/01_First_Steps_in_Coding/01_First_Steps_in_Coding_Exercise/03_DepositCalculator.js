@@ -1,13 +1,13 @@
 function depositCalculator(input) {
     const depositAmount = Number(input[0]);
-    const depositTime = Number(input[1]);
-    const annualInterestRate = (Number(input[2])) / 100;
-    const monthInYear = 12
+    const depositTimeInMonths = Number(input[1]);
+    const annualInterestRate = (Number(input[2])) * 0.01; // or / 100
+    const MONTHINYEAR = 12
 
     const accruedInterest = depositAmount * annualInterestRate
-    const oneMonthInterest = accruedInterest / monthInYear
+    const oneMonthInterest = accruedInterest / MONTHINYEAR
 
-    let result = depositAmount + depositTime * oneMonthInterest
+    let result = depositAmount + depositTimeInMonths * oneMonthInterest
     console.log(result)
 
 }

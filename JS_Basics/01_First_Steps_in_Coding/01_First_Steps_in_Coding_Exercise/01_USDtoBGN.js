@@ -1,8 +1,8 @@
 function usdToBgn(input){
     const usd = Number(input[0])
-    const fixing = 1.79549
+    const FIXING = 1.79549
 
-    const result = usd * fixing
+    const result = usd * FIXING
     console.log(result)
 
 }
