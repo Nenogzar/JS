@@ -4,12 +4,11 @@ function depositCalculator(input) {
     const annualInterestRate = (Number(input[2])) * 0.01; // or / 100
     const MONTHINYEAR = 12
 
-    const accruedInterest = depositAmount * annualInterestRate
-    const oneMonthInterest = accruedInterest / MONTHINYEAR
+    let accruedInterest = depositAmount * annualInterestRate
+    let oneMonthInterest = accruedInterest / MONTHINYEAR
 
     let result = depositAmount + depositTimeInMonths * oneMonthInterest
     console.log(result)
-
 }
 
 depositCalculator(["200 ", "3 ", "5.7 "])
