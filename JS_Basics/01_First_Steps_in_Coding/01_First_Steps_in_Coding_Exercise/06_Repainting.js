@@ -1,5 +1,5 @@
-function repainting(input){
-    const[nylonAmount, paintAmount, thinnerAmount, hours] = input.map(Number)
+function repainting(input) {
+    const [nylonAmount, paintAmount, thinnerAmount, hours] = input.map(Number)
     const nylonPrice = 1.50
     const paintPrice = 14.50
     const thinnerPrice = 5.00
@@ -11,7 +11,7 @@ function repainting(input){
     let amountPaint = purchasedPaint * paintPrice
     let amountThinner = thinnerAmount * thinnerPrice
 
-    let price= amountNaylon + amountPaint + amountThinner + bagsPrice
+    let price = amountNaylon + amountPaint + amountThinner + bagsPrice
     let paintingCost = (0.3 * price) * hours
 
     let totalPrice = price + paintingCost
@@ -19,9 +19,5 @@ function repainting(input){
 }
 
 
-repainting(["10 ","11 ","4 ","8 "])
-repainting(["5 ",
-    "10 ",
-    "10 ",
-    "1 "]
-    )
+repainting(["10 ", "11 ", "4 ", "8 "])
+repainting(["5 ", "10 ", "10 ", "1 "])
