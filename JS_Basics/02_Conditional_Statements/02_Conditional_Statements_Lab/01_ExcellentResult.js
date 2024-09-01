@@ -1,5 +1,5 @@
 function solve(input) {
-    if (input[0] >= 5.50) {
+    if (Number(input[0]) >= 5.50) {
         console.log("Excellent!");
     }
 }

@@ -9,7 +9,12 @@
 
 function greaterNumber(input) {
     [num1, num2] = input.map(Number)
-    console.log(num1 > num2? num1 : num2)
+    console.log(num1 > num2 ? num1 : num2)
+}
+
+function greaterNumber1(number) {
+    [num1, num2] = number.map(Number)
+    console.log(Math.max(num1, num2))
 }
 
 greaterNumber(["5", "3"]);
