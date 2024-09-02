@@ -33,3 +33,4 @@ let fixedNumber = (
             "the number is equal to 5"
 )
 console.log(fixedNumber)
+
