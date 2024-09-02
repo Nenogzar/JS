@@ -5,15 +5,13 @@ function totalRaceTime(input) {
 
     
     let seconds = totalSeconds % 60;
-    // let minutes = Math.floor(totalSeconds / 60);
     let minutes = (totalSeconds - seconds) / 60
 
-    if (seconds < 10) {
-        console.log(minutes + ":0" + seconds);
-    } else {
-        console.log(minutes + ":" + seconds);
-    }
-}
+    console.log(
+        seconds < 10 ? `${minutes}:0${seconds}`:
+            `${minutes}:${seconds}`
+    )
+}   
 
 totalRaceTime(["35",
     "45",
