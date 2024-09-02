@@ -21,3 +21,12 @@ function solve(number) {
 solve(["95"])
 solve(["120"])
 solve(["210"])
+
+// Python solution
+// def solve(number):
+// number1 = (
+//     "Less than 100" if number < 100 else
+//     "Greater than 200" if number > 200 else
+//     "Between 100 and 200"
+//     )
+// print(number1)
