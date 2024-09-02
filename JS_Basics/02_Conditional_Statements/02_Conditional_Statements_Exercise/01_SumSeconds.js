@@ -3,8 +3,10 @@ function totalRaceTime(input) {
 
     let totalSeconds = seconds1 + seconds2 + seconds3;
 
-    let minutes = Math.floor(totalSeconds / 60);
+    
     let seconds = totalSeconds % 60;
+    // let minutes = Math.floor(totalSeconds / 60);
+    let minutes = (totalSeconds - seconds) / 60
 
     if (seconds < 10) {
         console.log(minutes + ":0" + seconds);

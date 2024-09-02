@@ -3,7 +3,7 @@ function bonusScore(num){
     let points = Number(num[0])
     bonus = (
         points > 1000 ? points * 0.10:
-            points > 100 ? points * 0.20 :
+            points > 200 ? points * 0.20 :
                 points <= 100 ? 5:
                     0
     )
