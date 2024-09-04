@@ -10,13 +10,12 @@ function sleepTom(input){
     
     let difference = Math.abs(needetSleepForYear - timeForPlay)
 
-    let hour = Math.trunc(difference / 60) 
-    let minets = difference % 60 
-
+    let hours = Math.trunc(difference / 60) 
+    let minets = difference % 60  // difference - (hours * 60);
     
 
-    let result = (needetSleepForYear <= timeForPlay ? `Tom will run away \n${hour} hours and ${minets} minutes more for play`:
-        `Tom sleeps well\n${hour} hours and ${minets} minutes less for play`
+    let result = (needetSleepForYear <= timeForPlay ? `Tom will run away \n${hours} hours and ${minets} minutes more for play`:
+        `Tom sleeps well\n${hours} hours and ${minets} minutes less for play`
 
     )
     console.log(result)
