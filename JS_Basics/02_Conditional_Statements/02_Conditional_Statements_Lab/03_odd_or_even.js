@@ -17,7 +17,6 @@ solve(["3"])
 solve(["25"])
 solve(["1024"])
 
-
 solve1(["2"])
 solve1(["3"])
 solve1(["25"])
