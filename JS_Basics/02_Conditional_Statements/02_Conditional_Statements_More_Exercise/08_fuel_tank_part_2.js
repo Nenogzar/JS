@@ -1,55 +1,29 @@
-function fuelTanksTwo(info) {
-    const fuelType = String(info[0]);
-    const amountFuel = Number(info[1]);
-    const card = String(info[2]);
+function fuelTanksTwo(input) {
+    const fuelType = input[0];
+    const amountFuel = Number(input[1]);
+    const hasDiscountCard = input[2] === "Yes";
 
-    const gasolinePrice = [2.22, 0.18];
-    const dieselPrice = [2.33, 0.12];
-    const gasPrice = [0.93, 0.08];
-    let price = 0.00;
+    const fuelPrices = {
+        "Gasoline": { pricePerLiter: 2.22, discount: 0.18 },
+        "Diesel": { pricePerLiter: 2.33, discount: 0.12 },
+        "Gas": { pricePerLiter: 0.93, discount: 0.08 }
+    };
 
-    let dieselTotalPrice = 0.00;
-    let gasTotalPrice = 0.00;
-    let gasolineTotalPrice = 0.00;
-
-    if (card === "Yes") {
-        if (amountFuel <= 25 && amountFuel > 20) {
-            if (fuelType === "Diesel") {
-                dieselTotalPrice = amountFuel * (dieselPrice[0] - dieselPrice[1]);
-                price = dieselTotalPrice + (amountFuel * 0.92);
-            } else if (fuelType === "Gas") {
-                gasTotalPrice = amountFuel * (gasPrice[0] - gasPrice[1]);
-                price = gasTotalPrice + (amountFuel * 0.92);
-            } else if (fuelType === "Gasoline") {
-                gasolineTotalPrice = amountFuel * (gasolinePrice[0] - gasolinePrice[1]);
-                price = gasolineTotalPrice + (amountFuel * 0.92);
-            }
-        } else if (amountFuel > 25) {
-            if (fuelType === "Diesel") {
-                dieselTotalPrice = amountFuel * (dieselPrice[0] - dieselPrice[1]);
-                price = dieselTotalPrice * 0.90;
-            } else if (fuelType === "Gas") {
-                gasTotalPrice = amountFuel * (gasPrice[0] - gasPrice[1]);
-                price = gasTotalPrice * 0.90;
-            } else if (fuelType === "Gasoline") {
-                gasolineTotalPrice = amountFuel * (gasolinePrice[0] - gasolinePrice[1]);
-                price = gasolineTotalPrice * 0.90;
-            }
-        }
-    } else if (card === "No") {
-        if (fuelType === "Diesel") {
-            dieselTotalPrice = amountFuel * dieselPrice[0];
-            price = dieselTotalPrice;
-        } else if (fuelType === "Gas") {
-            gasTotalPrice = amountFuel * gasPrice[0];
-            price = gasTotalPrice;
-        } else if (fuelType === "Gasoline") {
-            gasolineTotalPrice = amountFuel * gasolinePrice[0];
-            price = gasolineTotalPrice;
-        }
+    let pricePerLiter = fuelPrices[fuelType].pricePerLiter;
+    
+    if (hasDiscountCard) {
+        pricePerLiter -= fuelPrices[fuelType].discount;
     }
 
-    console.log(price);
+    let totalPrice = pricePerLiter * amountFuel;
+
+    if (amountFuel > 25) {
+        totalPrice *= 0.90; // 10% отстъпка
+    } else if (amountFuel >= 20) {
+        totalPrice *= 0.92; // 8% отстъпка
+    }
+
+    console.log(`${totalPrice.toFixed(2)} lv.`);
 }
 
 fuelTanksTwo(["Gas", "30", "Yes"])          // 22.95 lv.
