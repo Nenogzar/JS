@@ -18,9 +18,9 @@ function fuelTanksTwo(input) {
     let totalPrice = pricePerLiter * amountFuel;
 
     if (amountFuel > 25) {
-        totalPrice *= 0.90; // 10% отстъпка
+        totalPrice *= 0.90; // 10% discount
     } else if (amountFuel >= 20) {
-        totalPrice *= 0.92; // 8% отстъпка
+        totalPrice *= 0.92; // 8% discount
     }
 
     console.log(`${totalPrice.toFixed(2)} lv.`);
