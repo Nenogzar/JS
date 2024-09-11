@@ -1,0 +1,6 @@
+Responsive Web Design
+
+• What is Responsive web design?;
+• Why is it important?;
+• What is Mobile First and why use it?;
+• Media Queries.
