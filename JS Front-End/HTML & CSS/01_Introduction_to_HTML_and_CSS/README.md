@@ -1,11 +1,18 @@
-Introduction to HTML & CSS
+### Introduction to HTML & CSS
 
->• What is HTML?;
->• HTML Syntax - Tags & Attributes;
->• Common HTML Tags;
->• Common HTML Attributes;
->• What is CSS?;
->• CSS Syntax - Selectors & Rules;
->• Adding CSS to HTML documents;
->• Basic CSS Selectors.
+>What is HTML?;
+
+>HTML Syntax - Tags & Attributes;
+
+>Common HTML Tags;
+
+>Common HTML Attributes;
+
+>What is CSS?;
+
+>CSS Syntax - Selectors & Rules;
+
+>Adding CSS to HTML documents;
+
+>Basic CSS Selectors.
 

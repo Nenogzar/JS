@@ -1,7 +1,7 @@
-CSS Layout - Flexbox
+### CSS Layout - Flexbox
 
->• What is Flexbox?;
+> What is Flexbox?;
 
->• Properties for the Container;
+> Properties for the Container;
 
->• Properties for the Children.
+> Properties for the Children.
