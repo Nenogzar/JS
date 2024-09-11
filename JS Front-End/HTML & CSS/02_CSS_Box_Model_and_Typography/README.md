@@ -2,4 +2,4 @@
 
 > • CSS Box Model;
 
-> • CSS Positioning.
+> • CSS Positioning;
