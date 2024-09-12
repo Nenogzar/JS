@@ -1,0 +1,11 @@
+h1{
+    color: red;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+#title2{
+    color: rgba(3, 87, 3, 0.678);
+}
