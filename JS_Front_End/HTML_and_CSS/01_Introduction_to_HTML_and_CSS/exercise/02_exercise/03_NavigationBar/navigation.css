@@ -1,0 +1,13 @@
+.navbar{
+    background-color: black;
+}
+.navbar a {
+    color: aquamarine;
+}
+
+a[href="#services"]{
+    color: burlywood;
+}
+.green{
+    background: brown;
+}
