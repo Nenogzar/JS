@@ -1,0 +1,58 @@
+/* Styling for the entire blog layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+article {
+    width: 70%;
+}
+
+aside {
+    width: 25%;
+}
+
+h2,
+h3 {
+    margin-top: 20px;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;

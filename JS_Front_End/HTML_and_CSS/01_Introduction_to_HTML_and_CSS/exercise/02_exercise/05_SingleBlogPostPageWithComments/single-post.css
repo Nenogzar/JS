@@ -1,0 +1,111 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4e1b9;
+    /* светъл пясъчен цвят за фон */
+    color: #5a4636;
+    /* тъмен пясъчен за текст */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #d2a679;
+    /* по-наситен пясъчен за заглавия */
+}
+
+header p {
+    color: #a3866b;
+    /* по-мек пясъчен нюанс за мета информация */
+    font-style: italic;
+}
+
+header p time {
+    font-weight: bold;
+    color: #d2a679;
+    /* същият цвят като заглавието */
+}
+
+body header p {
+    font-weight: bold;
+    color: #d2a679;
+    /* същият цвят като заглавието */
+}
+
+/* Blog Content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main h2 {
+    color: #d2a679;
+    /* подзаглавия в пясъчни тонове */
+    margin-top: 20px;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    background-color: #f5d7a2;
+    /* светъл бежов тон за цитати */
+    padding: 10px;
+    margin: 20px 0;
+    border-left: 5px solid #d2a679;
+    font-style: italic;
+}
+
+/* Comments Section */
+#comments {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+#comments h2 {
+    font-size: 1.5em;
+    color: #b08963;
+    /* по-тъмен пясъчен тон за заглавието на секцията */
+}
+
+article {
+    background-color: #fff8e1;
+    /* леко кремаво за фона на коментарите */
+    padding: 15px;
+    border: 1px solid #e1c899;
+    margin-bottom: 20px;
+}
+
+article header {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #5a4636;
+}
+
+article p {
+    margin-top: 0;
+    color: #5a4636;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        margin: 10px;
+    }
+
+    main,
+    #comments {
+        padding: 0 10px;
+    }
+}
+
+img {
+    position: relative;
+}
