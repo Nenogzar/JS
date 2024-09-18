@@ -1,0 +1,21 @@
+section{
+    border: 2px solid black;
+    padding: 1em 2em;
+    margin-bottom: 2em;
+}
+div{
+    border: 2px solid;
+    margin-bottom: 1em
+}
+
+.Uniform{
+    padding: 20px;
+}
+
+.Non-Uniform{
+    padding: 40px 30px 20px 40px;
+}
+
+.Percentage{
+    padding: 5%;
+}
