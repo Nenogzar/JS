@@ -1,0 +1,27 @@
+/* Section style*/
+section {
+    border: 2px solid rgb(145, 91, 245);
+    padding: 1em 2em;
+    margin-bottom: 2em;
+}
+
+/* Paragraph style section */
+section p {
+    border: 2px solid #aff115;
+    padding: 1em;
+}
+
+/* paragraph in section "block" whil show like a block element */
+/*.block p {
+    display: block;
+} */
+
+/* paragraph in section whit class "inline" whill show like a  inline elements */
+.inline p {
+    display: inline;
+}
+
+/* paragraph in section whit class "inline-block" we well show like a  inline-block element */
+.inline-block p {
+    display: inline-block;
+}
