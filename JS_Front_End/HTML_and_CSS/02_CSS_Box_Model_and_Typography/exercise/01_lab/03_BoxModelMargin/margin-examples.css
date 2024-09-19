@@ -1,24 +1,27 @@
-section {
-    display: block;
-    }
+/* Uniform margin */
+.uniform-margin {
+    margin: 40px;
+    background-color: lightblue; 
+}
 
+/* Non-uniform margin */
+.non-uniform-margin {
+    margin: 10px 30px 20px 40px;
+    background-color: lightgreen; 
+}
+
+/* Negative margin */
+.negative-margin {
+    margin: -20px;
+    background-color: lightcoral; 
+}
 
 
 div {
-    border: 2px solid rgb(70, 66, 66);
-    margin-bottom: 1px;
-    padding: 20px;
+    border: 1px solid black;
+    padding: 10px;
 }
 
-.UniformMargin {
-    margin: 40px;
-}
-
-.NonUniformPadding {
-    margin: 10px 30px 20px 40px;
-    /* Увеличаване на долния margin */
-}
-
-.NegativeMargin {
-    margin: -10px;
+p {
+    margin: 0;
 }
