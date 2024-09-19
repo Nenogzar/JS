@@ -1,0 +1,50 @@
+body{
+    background-color: #ebebeb;
+    font-family: sans-serif
+}
+body a{
+    text-decoration: none;
+    color: #000;
+}
+.card{
+    width: 30vw;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12,46, 0.15)
+    0px 48px 100px 0px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-conteiner{
+    padding: 20px;
+}
+
+.main-conteiner h2{
+    font-size: 1rem;
+}
+footer p{
+    margin: 0;
+}
+
+.f-bold{
+    font-weight: bold;
+}
+
+.f-italic{
+    font-style: italic; 
+}
+
+.limit-linies{
+    font-style: italic;
+    width: 300px; /* Ширината може да бъде каквато решиш */
+    white-space: nowrap; /* Не позволява текста да се пренася */
+    overflow: hidden; /* Скрива частта от текста, която излиза извън рамките */
+    text-overflow: ellipsis; /* Добавя многоточие след края на видимия текст */
+    display: block; /* Уверява, че елементът заема цялата ширина */
+}

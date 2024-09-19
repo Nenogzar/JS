@@ -5,7 +5,7 @@
 
 .css-class-model div{
     border: 1px dashed #666;
-    margin: 20px;
+    margin: 10px 30px 30px 30px;
     
 }
 
@@ -16,11 +16,13 @@
 }
 .css-class-model .margin{
     background-color: rgb(255, 150, 111);
+    font-weight: 400;    
 }
+
 
 .css-class-model .margin:before{
     content: 'margin';
-    font-weight: bold;
+    
 }
 
 .css-class-model .border{
@@ -28,19 +30,21 @@
 }
 .css-class-model .border::before{
     content: 'border';
-    font-weight: bold;
+    
 }
 .css-class-model .padding{
     background-color: rgb(133,235,133);
 }
-.css-class-model .padding::before{
+.css-class-model .padding:before{
     content: 'padding';
-    font-weight: bold;
+    
 }
 .css-class-model .content{
     background-color: rgb(163,210,226);
     font-size: 20px;
-    font-weight: bold;
-    
+    text-align: center;
+    font-weight: 400;
+    text-transform: capitalize;
+
 }
 
