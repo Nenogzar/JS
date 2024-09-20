@@ -1,0 +1,35 @@
+article {
+    font-family: Helvetica, Arial, sans-serif; /* Задай и резервен шрифт за безопасност */
+    margin: 20px auto; /* Центриране с отстояния по 20px от всяка страна */
+    padding: 20px; /* Отстояние вътре в article */
+    max-width: 800px; /* Ограничаване на ширината, за да се побира добре на екрана */
+    border: 1px solid #ddd; /* Бордер с леко сиво */
+    border-radius: 8px; /* Заобляне на ъглите за по-мек вид */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Малка сянка за по-добър визуален ефект */
+}
+
+h1, h4 {
+    font-weight: bold; /* Подчертаване на заглавията */
+    margin: 0px 15px 15px 0px ;
+}
+h2 {
+    font-weight: bold; /* Подчертаване на заглавията */
+    margin: 15px 15px 15px 0px ;
+}
+
+p {
+    line-height: 1.6; /* Увеличаване на разстоянието между редовете за по-добра четливост */
+    margin-bottom: 20px; /* Отстояние под параграфите */
+    font-size:small;
+    font-weight:900px; 
+}
+
+footer {
+    font-style: italic; /* Наклонен текст за по-добър ефект */
+    color: #555; /* Малко по-светъл цвят на текста във footer */
+}
+
+.cite-autor {
+    font-weight: bold;
+    font-style: normal; /* Запази нормален стил на автора */
+}
