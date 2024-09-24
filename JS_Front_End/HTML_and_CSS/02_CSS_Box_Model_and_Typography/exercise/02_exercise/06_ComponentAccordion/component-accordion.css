@@ -1,0 +1,20 @@
+.panel {
+    display: none;
+    padding: 10px;
+    block-size: auto;
+}
+
+.accordion-heading {
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+    
+    color: black;
+    margin: 0;
+}
+
+article{
+    border: 1px solid #ccc;
+    width: 50vw;
+}
+
