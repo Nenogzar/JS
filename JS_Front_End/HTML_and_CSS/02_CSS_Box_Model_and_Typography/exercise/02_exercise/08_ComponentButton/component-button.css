@@ -1,0 +1,46 @@
+section{
+    padding: 10px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+h2 {
+    font-size: 1.2em;
+}
+
+.button{
+    font-family: "Lato", sans-serif;
+    background: #F0F0F0;
+    border: 1px solid #F0F0F0;   
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 5px;
+    display: inline-block;
+    font-size: 0.7rem;
+    cursor: pointer;
+
+}
+
+.button:first-of-type{
+    margin-left: 0px;
+}
+
+.primary{
+    background: #F79A02;
+}
+
+.secondary{
+    background: #F9F9CB;
+
+}
+
+.outlne{
+    background: #FFFFFF;
+}
+
+.icon{
+    background: ;
+    background-color: #F0F0F0;
+}

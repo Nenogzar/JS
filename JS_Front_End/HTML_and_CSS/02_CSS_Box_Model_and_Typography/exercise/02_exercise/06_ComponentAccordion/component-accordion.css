@@ -1,20 +1,22 @@
-.panel {
-    display: none;
-    padding: 10px;
-    block-size: auto;
+.acordion-container{
+    width: 70%;
+    margin:30px auto;
+    font-family: "Lato", sans-serif;
 }
 
-.accordion-heading {
+.acordion-container details{
+    border: 1px solid gray;
+    padding: 20px;
+    border-bottom: 0px;  
+}
+
+.acordion-container details:last-child {
+    border-bottom: 1px solid gray;
+}
+
+
+.acordion-container details summary{
+    font-weight:700;
     cursor: pointer;
-    padding: 15px;
-    font-size: 18px;
-    
-    color: black;
-    margin: 0;
-}
 
-article{
-    border: 1px solid #ccc;
-    width: 50vw;
 }
-
