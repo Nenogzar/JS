@@ -39,12 +39,12 @@
         column – подрежда елементите вертикално (отгоре надолу).
         column-reverse – отдолу нагоре.
 
-    ```css
+```css
     .container {
     flex-direction: row; /* или column, row-reverse, column-reverse */
     }
 
-    ```
+```
 
 > 2. justify-content – Контролира подравняването на елементите по основната ос.
 
@@ -55,8 +55,8 @@
         space-around – Разпределя елементите с еднакво разстояние около тях.
 
     
-    ```css
+```css
     .container {
     justify-content: center; /* или flex-start, flex-end, space-between, space-around */
     }
-    ```
+```
