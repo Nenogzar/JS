@@ -1,5 +1,6 @@
 section{
-    padding: 10px;
+    margin: 0px 10px;
+    
 }
 a{
     color: inherit;
@@ -16,7 +17,7 @@ h2 {
     border-radius: 3px;
     padding: 10px;
     text-align: center;
-    margin: 10px 5px;
+    
     display: inline-block;
     font-size: 0.7rem;
     cursor: pointer;
@@ -43,4 +44,8 @@ h2 {
 .icon{
     background: ;
     background-color: #F0F0F0;
+}
+
+section:first-of-type{
+    padding: 20px 0px;
 }
