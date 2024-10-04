@@ -1,0 +1,56 @@
+div{
+    margin: 0% 5%;
+    display: flex;
+    border: black 1px solid;     
+
+}
+
+div p{
+    margin: 0.5%;
+    border-radius: 10%;
+    padding: 0.5%;
+}
+
+.one {
+    background-color: rgb(12, 160, 49);
+}
+
+.two {
+    background-color: rgb(189, 10, 160);
+}
+.three {
+    background-color: rgb(255, 153, 0);
+}
+
+.four {
+    background-color: rgb(58, 96, 223);
+}
+
+
+
+.container_flex-start{
+    justify-content: flex-start;
+}
+
+.container_flex-end{
+    justify-content: flex-end;
+}
+
+.container_center{
+    justify-content: center;
+    align-items: center;
+}
+
+.container_space-between{
+    justify-content: space-between;
+}
+
+
+.container_space-around{
+    justify-content: space-around;
+}
+
+
+.container_space-evenly{
+    justify-content: space-evenly;
+}

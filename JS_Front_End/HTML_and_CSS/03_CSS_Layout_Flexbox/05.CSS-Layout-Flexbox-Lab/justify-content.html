@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify-content</title>
+    <link rel="stylesheet" href="sintaxisJustify.css">
+</head>
+<body>
+    <p><b>start</b> items are packed toward the start of the writing-mode direction.</p>
+    <p><b>end:</b> items are packed toward the end of the writing-mode direction.</p>
+    <p><b>left:</b> items are packed toward left edge of the container, unless that doesn’t make sense with the flex-direction, then it behaves like start.</p>
+    <p><b>right:</b>right: items are packed toward right edge of the container, unless that doesn’t make sense with the flex-direction, then it behaves like end.</p>
+
+    <p><b>flex-start (default):</b> items are packed toward the start of the flex-direction.</p>
+    <div class="container_flex-start">
+        <p class="one">1. One</p>
+        <p class="two">2.Two</p>
+        <p class="three">3.Three</p>
+        <p class="four">4.four</p>
+      </div>
+    <p><b>flex-end:</b> items are packed toward the end of the flex-direction.</p>
+    <div class="container_flex-end">
+        <p class="one">1. One</p>
+        <p class="two">2.Two</p>
+        <p class="three">3.Three</p>
+        <p class="four">4.four</p>
+      </div>
+    <p><b>center:</b> items are centered along the line</p>
+    <div class="container_center">
+        <p class="one">1. One</p>
+        <p class="two">2.Two</p>
+        <p class="three">3.Three</p>
+        <p class="four">4.four</p>
+      </div>
+    <p><b>space-between:</b> items are evenly distributed in the line; first item is on the start line, last item on the end line</p>
+    <div class="container_space-between">
+        <p class="one">1. One</p>
+        <p class="two">2.Two</p>
+        <p class="three">3.Three</p>
+        <p class="four">4.four</p>
+      </div>
+    <p><b>space-around:</b> items are evenly distributed in the line with equal space around them. Note that visually the spaces aren’t equal, since all the items have equal space on both sides. The first item will have one unit of space against the container edge, but two units of space between the next item because that next item has its own spacing that applies.</p>
+    <div class="container_space-around">
+        <p class="one">1. One</p>
+        <p class="two">2.Two</p>
+        <p class="three">3.Three</p>
+        <p class="four">4.four</p>
+      </div>
+    <p><b>space-evenly:</b> items are distributed so that the spacing between any two items (and the space to the edges) is equal.</p>
+    <div class="container_space-evenly">
+        <p class="one">1. One</p>
+        <p class="two">2.Two</p>
+        <p class="three">3.Three</p>
+        <p class="four">4.four</p>
+      </div>
+    <footer>End</footer>
+</body>
+</html>

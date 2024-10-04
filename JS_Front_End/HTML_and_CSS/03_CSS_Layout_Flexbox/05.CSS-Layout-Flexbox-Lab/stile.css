@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    height: auto;
+    width: 120px;
+    font-style: italic;
+}
+
+.container p {
+    margin: 0.1%;
+    text-align: center;
+    color: black;
+}
+
+.container .first {
+    background-color: blue;
+}
+
+.container .second {
+    background-color: rgb(204, 12, 102);
+}
+
+.container_one {
+    display: flex;
+    flex-direction: column;
+    /* row / row-reverse/ column/ column-reverse */
+}
+
+.container_one p {
+    border-radius: 5%;
+    text-align: center;
+    color: azure;
+    width: 10%;
+    margin: 0.1%;
+}
+
+.container_one .one {
+    background-color: rgb(12, 160, 49);
+}
+
+.container_one .two {
+    background-color: rgb(189, 10, 160);
+}
+
+.container_one .three {
+    background-color: rgb(255, 153, 0);
+}
+
+.container_one .four {
+    background-color: rgb(58, 96, 223);
+}
