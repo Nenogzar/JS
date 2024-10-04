@@ -1,0 +1,23 @@
+.flex-container{
+    margin: 0% 10% 0% 0% ;
+    border: solid 1px;
+    border-color: black;
+    padding : 1% 50% 8% 0.5%;
+}
+h1{
+    margin: 0% 0% 5% 0%
+}
+.flex-item{
+    width: 400px;
+    display: flex;
+    border: 2px solid blue;
+    Padding:1em;
+    flex-wrap: wrap;
+}
+
+.flex-item p {
+    padding: 20px;
+    border:2px solid #000 ;
+    margin: 0%;
+    background-color: #eee ;   
+}
