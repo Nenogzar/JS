@@ -6,9 +6,10 @@ h1 {
     width: 400px;
     display: flex;
     border: 2px solid blue;
-    padding: 1em;
+    padding: 0em 1em;
     flex-direction: row;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    
 }
 
 p {
