@@ -6,6 +6,7 @@ h1{
     display: flex;
     border: 2px solid blue;
     padding: 1em;
+    height: 200px; /* Задаване на фиксирана височина */
 }
 
 .flex-item p {

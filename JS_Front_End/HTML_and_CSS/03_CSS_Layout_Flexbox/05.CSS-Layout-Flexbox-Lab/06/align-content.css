@@ -1,0 +1,42 @@
+h1{
+    margin: 0% 0% 5% 0%
+}
+.flex-item {
+    width: 400px;
+    display: flex;
+    border: 2px solid blue;
+    padding: 1em;
+    height: 200px;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.flex-item p {
+    flex-basis: 10px;
+    padding: 20px;
+    border: 2px solid #000;
+    background-color: #eee;
+    margin: 0%;
+}
+
+
+.align-content-flex-start{
+    align-content: flex-start;
+}
+
+.align-content-center{
+    align-content: center;
+}
+
+.align-content-flex-end{
+    align-content: flex-end;
+}
+
+.align-content-space-between{
+    align-content: space-between;
+}
+
+.align-content-space-around{
+    align-content: space-around;
+}   
+
