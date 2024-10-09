@@ -3,8 +3,7 @@
     width: 400px;
     display: flex;
     border: 2px solid blue;
-    Padding:1em;
-    flex-wrap: wrap;
+    padding:1em;
 }
 
 .flex-item p {
