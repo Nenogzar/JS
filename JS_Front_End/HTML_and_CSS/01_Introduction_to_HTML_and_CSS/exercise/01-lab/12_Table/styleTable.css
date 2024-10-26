@@ -1,0 +1,22 @@
+table{
+    margin: 0%;
+    padding: 0%;
+}
+
+tr{
+    border: 0.5px solid #020202;
+    background-color: #a7a3a3;
+    margin: 0%;
+    padding: 0%;
+}
+td{
+    border-radius: 15%;     
+    font-display: center;
+    font-style:oblique;
+    
+}
+
+th{
+    border-radius: 8%;
+    font-style: italic;
+}

@@ -1,0 +1,95 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: calc(100% - 100px);
+    padding: 20px;
+    background-color: white;
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    overflow: hidden;
+    margin: 50px; 
+}
+
+.image img {
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+    padding: 0px 40px 0px 50px;
+}
+
+.content{
+    padding: 0px 60px 0px 0px;
+}
+
+.section-header {
+    border-left: 4px solid #7AB730;
+    padding: 20px 10px 20px 10px;
+}
+
+.tagline {
+    color: #7AB730;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #333;
+    margin: 0px;
+    
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.button {
+    flex: 1;
+    padding: 12px 0;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+}
+
+.mission {
+    background-color: #7AB730;
+    color: white;
+}
+
+.vision {
+    background-color: #e9e9e9;
+    color: #7AB730;
+}
+
+.details {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+ 
+.section-header {
+    border-left: 4px solid #7AB730;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
